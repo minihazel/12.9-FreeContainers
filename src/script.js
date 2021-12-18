@@ -1,6 +1,6 @@
 exports.mod = (mod_info) => {
     logger.logInfo("[MOD] Loading: FreeContainers");
-	let modFolder = `user/mods/hazelify-FreeContainers-1.0.1`
+	let modFolder = `user/mods/hazelify-FreeContainers-1.0.2`
 	// Getting local config file to fetch the mod's filters
     let PathResolver = global.internal.path.resolve
 	let baseConfig = fileIO.readParsed(PathResolver(`${modFolder}/config.json`))
